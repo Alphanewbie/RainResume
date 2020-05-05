@@ -12,5 +12,9 @@ public class MyAppController {
     public String index() {
         return "index.html";
     }
-    
+
+    @RequestMapping("/board")
+    public String board() {
+        return "board.html";
+    }
 }
